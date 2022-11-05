@@ -1,5 +1,5 @@
 init:
-	go mod init github.com/galex-do/golib/v2
+	go mod init github.com/galex-do/golib/v3
 
 format:
 	find . -name "*.go" -exec gofmt -w {} +
