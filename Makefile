@@ -7,3 +7,7 @@ format:
 vendor:
 	echo "Downloading all imported packages locally"
 	go mod vendor
+
+publish:
+	git tag ${TAG}
+	git push origin main --tags
