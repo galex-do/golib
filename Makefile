@@ -1,11 +1,5 @@
 init:
-	go mod init golib
-
-run:
-	go run main.go
-
-get:
-	go get
+	go mod init github.com/galex-do/golib
 
 format:
 	find . -name "*.go" -exec gofmt -w {} +
